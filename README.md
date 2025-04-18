@@ -21,7 +21,7 @@
 ---
 ## Настройка LogSender
 ### Своя реализация LogSender:
-1. Создайте класс, реализующий интерфейс LogSender и переопределите метод send(LogEntry logEntry):
+1. В вашем приложении создайте класс, реализующий интерфейс LogSender, и переопределите метод send(LogEntry logEntry):
 
 ```java
 public class MyLogSender implements LogSender {
